@@ -1,0 +1,23 @@
+.right{
+    width:700px;
+    height:500px;
+    /* margin-top:40px;
+    margin-bottom:40px; */
+    margin:40px 40px 40px 0px;
+    background-color: #4b0766;
+
+}
+.container{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:100px;
+}
+.profileContainer{
+    width: 700px;
+    height: 500px;
+    margin:40px 0 40px 40px;
+    background-color: #906e9d;
+}
+.left{
+    padding-left:120px;
+}

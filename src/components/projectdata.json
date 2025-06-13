@@ -1,0 +1,69 @@
+[
+    {
+        "title":"WEB APP",
+        "name":"NOTEBOOK WEB APP",
+        "alt":"notebook",
+        "image":"/images/notebook.jpeg",
+        "description":[
+            "Developed a multi-user notebook application where users can create, update and delete personal notes.",
+            "Implemented user authentication with a 'Remember Me' feature, allowing dynamic session handling via sessionStorage or localStorage and providing each user with a personalized and secure space to manage their notes",
+            "Ensured password security using bcrypt for hashing and validation.",
+            "Designed a responsive front-end UI and clean routing for user-specific dashboards."
+        ],
+        "code":"https://github.com/UdayaNarne/Notebook",
+        "frontend-link":"",
+        "techstack":"React JS, Node Js, MongoDB, Express Js, JWT Token"
+    },
+    {
+        "title":"WEB GAME",
+        "name":"SNAKE GAME",
+        "alt":"snakegame",
+        "image":"/images/snakegame.jpeg",
+        "description":[
+            "Developed an interactive Snake game using HTML5 Canvas, CSS, and JavaScript.",
+            "Implemented a dynamic scoring system that updates in real-time as the snake consumes food.",
+            "Enhanced gameplay by increasing snake speed and enlarging food size upon reaching score thresholds.",
+            "Created a responsive canvas area defining the snake’s movement boundaries and smooth animations.",
+            "Strengthened JavaScript proficiency through hands-on experience in DOM manipulation, game loops, and canvas rendering."
+        ],
+        "code":"https://github.com/UdayaNarne/Snake_Game",
+        "frontend-link":"https://snake-game-mocha-seven.vercel.app/", 
+        "techstack":"HTML5, CSS , Javascript"
+    },
+    {
+        "title":"ANALYTICS",
+        "name":"HEALTHCARE ANALYTICS DASHBOARD",
+        "alt":"analytics",
+        "image":"/images/analytics.png",
+        "description":[
+            "Designed and planned a data dashboard using Azure Databricks and other Azure services, aimed at providing accessible insights for healthcare administration and government agencies.",
+            "Conducted a comprehensive analysis of patient data across three hospitals, comprising of total of 150 sample records.",
+            "Leveraged statistical models to identify critical health risk factors,enabling informed healthcare decision making.",
+            "Planneed to identify and determine the resources required, enabling the optimized allocation of healthcare resources across departments for improved efficiency and patient care outcomes."
+        ],
+        "techstack":"Azure Databricks, PySpark, Azure Blob Storage"
+    },
+    {
+        "title":"CHATBOT",
+        "name":"MEDHA - AN AI-POWERED CHATBOT FOR COLLEGE WEBSITE",
+        "alt":"chatbot",
+        "image":"/images/chatbot.jpeg",
+        "description":[
+            "Developed an chatbot for a college website using the DistilBERT transformer model, a lightweight encoder-based architecture optimized for performance.",
+            "Trained the model on a custom dataset of 550+ labeled queries, covering diverse college-related intents such as College Information, Faculty Details, Clubs, and more.",
+            "Achieved 83.19% accuracy and an F1-score of 81.36%, demonstrating strong intent classification performance.",
+            "Enhanced user experience by enabling real-time, context-aware responses for commonly asked queries on the college website."
+        ],
+        "code":"https://github.com/UdayaNarne/Trail-3/",
+        "frontend-link":"https://medha-udaya-narnes-projects.vercel.app/",
+        "backendLink":"wss://medha-yzcp.onrender.com/chat",
+        "techstack":"DistilBERT Model, Websockets, Hugging Face, Python 3.12, HTML5, CSS, Javascript"
+    }
+]
+
+
+                            
+                        
+
+
+

@@ -1,0 +1,9 @@
+.flex{
+    display:flex;
+    padding-left:25px;
+}
+
+.ptext{
+  font-size:20px;
+  /* color:#39044e; */
+}
