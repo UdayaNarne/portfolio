@@ -29,13 +29,13 @@ export default function Navbar2() {
         >
           <ul className="navbar-nav mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link text-white" href="#">Home</a>
+              <a className="nav-link text-white" href="#home">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="#">About</a>
+              <a className="nav-link text-white" href="#about">About</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="#">Connect</a>
+              <a className="nav-link text-white" href="#connect">Connect</a>
             </li>
           </ul>
         </div>
