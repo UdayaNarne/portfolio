@@ -4,7 +4,7 @@ import styles from './about.module.css';
 export default function About(){
     return(
         <>
-            <div style={{marginTop:"200px",paddingTop:"100px",backgroundColor:"#61028d",color:"white",paddingBottom:"100px"}}>
+            <div style={{paddingTop:"100px",backgroundColor:"#61028d",color:"white",paddingBottom:"100px"}}>
                 <div className={styles.flex}>
                     {/* <img src="../images/aboutme.jpeg" alt="about me" style={{width:"50px" , height:"50px"}}/> */}
                     <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" style={{marginRight:"5px",paddingRight:"0px"}} class="bi bi-person-exclamation" viewBox="0 0 16 16">
@@ -13,8 +13,7 @@ export default function About(){
                     </svg>
                     <p style={{marginLeft:"10px",fontSize:"36px",fontWeight:"800"}}>ABOUT ME</p>
                 </div>
-                
-                <div className="mt-5 p-5 pt-0">
+                <div className="mt-5 p-5 pt-0 pb-3">
                     <p className={styles.ptext}>
                         Hii, I'm Udaya Narne, a passionate <span style={{fontWeight:"bold"}}>competitive programmer</span> with a solid foundation in C++ and and a deep interest in <span style={{fontWeight:"bold"}}>Data Structures and Algorithms.</span>
                     </p>
