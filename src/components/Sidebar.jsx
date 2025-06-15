@@ -18,8 +18,10 @@ export default function Sidebar(){
         setItem(clickedId.replace("2", "")); // converts "projects2" to "projects"
     };
     console.log("Sidebar Item from Context:",item);
-   const highlightBg = item === "home" ? "#61028d" : item === "projects" ? "#61028d" : item === 'skills' ? "#61028d" : "white";
-    const textColor = ["home", "projects", "skills"].includes(item) ? "white" : "#61028d";
+    const highlightBg="#93d6e9";
+   //const highlightBg = item === "home" ? "#61028d" : item === "projects" ? "#61028d" : item === 'skills' ? "#61028d" : "white";
+    //const textColor = ["home", "projects", "skills"].includes(item) ? "white" : "#61028d";
+    const textColor="white";
     console.log("Highlight Background:",highlightBg);
     return (
         <>

@@ -9,6 +9,7 @@ import Projects from './components/Projects';
 import DSA from './components/DSA';
 import Sidebar from './components/Sidebar';
 import Skills from './components/Skills';
+import Scrolleffect from './components/Scrolleffect';
 import {ItemProvider} from './context/itemProvider';
 import {BrowserRouter as Router, Routes,Route} from 'react-router-dom';
 
@@ -40,9 +41,10 @@ function App() {
     <div className="App">
       <ItemProvider>
         <Navbar/>
-        <Sidebar/>
+        {/* <Sidebar/> */}
+        <Scrolleffect/>
         {/* <ScrollHandler/> */}
-        <section id="home">
+        {/* <section id="home">
           <Home/>
         </section>
         <section id="about">
@@ -59,7 +61,7 @@ function App() {
         </section>
         <section id="connect">
           <Connect/>
-        </section>
+        </section> */}
       </ItemProvider>
     </div>
   );

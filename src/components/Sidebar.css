@@ -15,7 +15,8 @@
     overflow: hidden;
   }
   .nav-link.active {
-    background-color: #FFD95F!important;
+    background-color:transparent!important;
+    border:2px solid #7E99A3 !important;
     color: #61028d !important;
     font-weight: bold;
     border-radius: 5px;
